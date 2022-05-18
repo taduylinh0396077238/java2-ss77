@@ -2,7 +2,7 @@ package Java2_07;
 
 public class ThreadDemo extends Thread {
     public static void main(String[] args) {
-        ThreadDemo objTh = new ThreadDemo();
+        threadDemo objTh = new threadDemo();
         Thread t = new Thread(objTh);
         try {
             t.start();
